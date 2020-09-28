@@ -1,36 +1,114 @@
-nav {
-  display: grid;
-  height: 102px;
-  width: 100%;
-  background: #c5362a;
-  grid-template-columns: 1fr 5fr 2fr;
+/* Fonts */
+@import "fonts.css";
 
+* {
+  box-sizing: border-box;
 }
+
+header {
+  background: #c5362a;
+}
+
+nav {
+  padding: 1em;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  border-radius: 5.5px;
+  padding: 0.5em;
+}
+
 #left-items {
   float: left;
-
+  height: 3.5em;
 }
+
+#left-items img {
+  height: 4em;
+  margin-left: 2em;
+}
+
 #center-items {
-  list-style: none;
+  flex-grow: 1;
   display: flex;
-  flex-flow: row;
-  justify-content: center;
-
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 1em;
+  margin-left: 1em;
 }
+
 #center-items ul {
   list-style: none;
   justify-content: space-between;
-  display: inline-flex;
-
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  flex-grow: 1;
 }
-#center-items li {
+
+#center-items a {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.5em;
+  font-family: "Mija", arial;
+  font-weight: 700;
+  padding: 0.5em;
+  border: 1px solid #c5362a;
+  border-radius: 11px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  text-decoration: none;
+}
 
+#center-items a:hover {
+  background-color: #811d15;
+  border: 1px solid #811d15;
+  border-radius: 11px;
 }
+
 #right-items {
+  display: flex;
+  align-items: center;
+  border-radius: 11px;
+  background-color: #fff;
+  margin-right: 2em;
+  margin-left: 2em;
+  height: 3em;
   float: right;
+  justify-content: flex-end;
+  font-size: 1em;
+  box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.25);
 }
+
 #right-items input {
-  float: right;
+  border: none;
+}
+
+.fa-search {
+  color: #f25924;
+  margin-right: 16px;
+}
+
+#menu-button {
+  display: flex;
+  padding: 0.5em;
+  background-color: #a92e23;
+  font-family: "Mija", arial;
+  font-weight: 700;
+  font-size: 1.5em;
+  border: 1px solid #a92e23;
+  border-radius: 11px;
+  color: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+#menu-button img {
+  margin-left: 10px;
+  height: 1em;
+}
+#menu-button:hover {
+  cursor: pointer;
 }

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: ElenaInitial;
+  src:
+    url(/assets/fonts/ElenaWebRegular.woff2) format("woff2"),
+    url(/assets/fonts/ElenaWebRegular.woff) format("woff")
+}
+
+@font-face {
+  font-family: Elena;
+  src:
+    url(/assets/fonts/ElenaWebRegular.woff2) format("woff2"),
+    url(/assets/fonts/ElenaWebRegular.woff) format("woff")
+}
+
+@font-face {
+  font-family: Elena;
+  src: url(/assets/fonts/ElenaWebRegularItalic.woff2) format("woff2"),
+    url(/assets/fonts/ElenaWebRegularItalic.woff) format("woff");
+  font-style: italic
+}
+
+@font-face {
+  font-family: Elena;
+  src:
+    url(/assets/fonts/ElenaWebBold.woff2) format("woff2"),
+    url(/assets/fonts/ElenaWebBold.woff) format("woff");
+  font-weight: 700
+}
+
+@font-face {
+  font-family: Elena;
+  src:
+    url(/assets/fonts/ElenaWebBoldItalic.woff2) format("woff2"),
+    url(/assets/fonts/ElenaWebBoldItalic.woff) format("woff");
+  font-weight: 700;
+  font-style: italic
+}
+
+@font-face {
+  font-family: MijaInitial;
+  src:
+    url(/assets/fonts/Mija_Regular-webfont.woff2) format("woff2"),
+    url(/fonts/MijaRegular/Mija_Regular-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Mija;
+  src:
+    url(/assets/fonts/Mija_Regular-webfont.woff2) format("woff2"),
+    url(/assets/fonts/Mija_Regular-webfont.woff) format("woff")
+}
+
+@font-face {
+  font-family: Mija;
+  src:
+    url(/assets/fonts/Mija_Bold-webfont.woff2) format("woff2"),
+    url(/assets/fonts/Mija_Bold-webfont.woff) format("woff");
+  font-weight: 700
+}
