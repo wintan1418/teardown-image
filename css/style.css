@@ -1,0 +1,36 @@
+nav {
+  display: grid;
+  height: 102px;
+  width: 100%;
+  background: #c5362a;
+  grid-template-columns: 1fr 5fr 2fr;
+
+}
+#left-items {
+  float: left;
+
+}
+#center-items {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+
+}
+#center-items ul {
+  list-style: none;
+  justify-content: space-between;
+  display: inline-flex;
+
+}
+#center-items li {
+  color: #fff;
+  font-size: 20px;
+
+}
+#right-items {
+  float: right;
+}
+#right-items input {
+  float: right;
+}
