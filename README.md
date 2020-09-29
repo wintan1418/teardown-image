@@ -1,75 +1,45 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-​
+
 # Teardown design
-​
-> this is a heatmap of the smashing magazine website
-​
-![screenshot](./app_screenshot.png)
-​
-Additional description about the project and its features.
-​
+
+> this is a heatmap of the smashing magazine website.
+
+![screenshot](./assets/app_screenshot.png)
+
+Most attention taking parts of the website made darker on the heatmap.
+
 ## Built With
-​
 - Html
 - Css
-​
 ## Live Demo
-​
-[Live Demo Link](https://livedemo.com)
-​
-​
+[Live Demo Link](https://wintan1418.github.io/teardown-image/)
+
 ## Getting Started
-​
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-​
-​
-To get a local copy up and running follow these simple example steps.
-​
-### Prerequisites
-​
-### Setup
-​
-### Install
-​
+
+**This is a basic html-css project.**
+**You need to have web browser installed on your computer.**
+
 ### Usage
-​
-### Run tests
-​
-### Deployment
-​
-​
-​
+- Download and extract the project files.
+- Open the index.html file with your browser.
+
 ## Authors
-​
-👤 **Author1**
-​
-- GitHub: [@githubhandle](https://github.com/wintan1418)
-- Twitter: [@twitterhandle](https://twitter.com/oluwadarejuwon)
-- LinkedIn: [LinkedIn](https://linkedin.com/oluwadare-juwon-048a391a8/)
-​
-👤 **Author2**
-​
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-​
+
+👤 **Oluwadare Juwon**
+ 
+- GitHub: [@wintan1484](https://github.com/wintan1418)
+- Twitter: [@oluwadarejuwon](https://twitter.com/oluwadarejuwon)
+- LinkedIn: [oluwadare juwon](https://linkedin.com/oluwadare-juwon-048a391a8/)
+ 
+👤 **Sinan Sevgi**
+
+- GitHub: [@sinansevgi](https://github.com/sinansevgi)
+- LinkedIn: (https://www.linkedin.com/in/sinan-s-52559437/)
+- Twitter: [@nativeofcyber1](https://twitter.com/nativeofcyber1)
+ 
 ## �� Contributing
-​
-Contributions, issues, and feature requests are welcome!
-​
-Feel free to check the [issues page](issues/).
-​
+You can freely contribute to this project.
 ## Show your support
-​
 Give a ⭐️ if you like this project!
-​
-## Acknowledgments
-​
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-​
 ## �� License
-​
 This project is [MIT](lic.url) licensed.
