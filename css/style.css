@@ -29,6 +29,8 @@ body {
   width: 80%;
   height: 100px;
   display: flex;
+  text-align: center;
+
 }
 
 .searchbox {
@@ -42,6 +44,8 @@ body {
   height: 50%;
   width: 10%;
   margin: auto;
+  padding-top: 15px;
+  border-radius: 11px;
 }
 
 .button:last-child {
@@ -59,14 +63,26 @@ body {
 
 .article-title {
   background-color: var(--normal-background);
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  font-family: 'Mija';
+  padding: 50px;
+
 }
 
 .article-title:first-child {
-  background-color: var(--light-background);
+  background-color: var(--normal-background);
+  display: flex;
+  align-items: center;
+  margin: 40px;
 }
 
 .article-title:last-child {
   background-color: var(--dark-background);
+  display: flex;
+  align-items: center;
+  margin: 40px;
 }
 
 #title-float {
@@ -88,10 +104,18 @@ body {
 
 .info {
   background-color: var(--lighter-area);
+  padding: 60px;
+  display: block;
+  align-items: center;
+  margin: 30px;
+
+
+
 }
 
 .image {
   background-color: var(--dark-area);
+
 }
 
 .section3 {
@@ -108,27 +132,39 @@ body {
 
 .section3-flex div {
   flex-grow: 1;
-  height: 300px;
+  /* height: 300px; */
   display: flex;
   flex-direction: row;
   background-color: var(--lighter-area);
   margin: 10px;
+}
+.section3-flex .text {
+  display: block;
+  padding: 30px;
 }
 
 .section3-big {
   margin: 10%;
   display: flex;
   justify-content: space-between;
+  border-radius: 11px;
+
 }
 
 .section3-big .info {
-  height: 400px;
+  height: 300px;
   width: 30%;
+  border-radius: 11px;
+  padding-top: 150px;
+
 }
 
 .section3 .image {
   height: 400px;
   width: 60%;
+  padding-top: 150px;
+  justify-content: space-around;
+  float: right;
 }
 
 .section4 {
@@ -143,14 +179,24 @@ body {
   background-color: var(--light-area);
   height: 400px;
   width: 70%;
-}
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px;
 
+}
+.top-text p {
+  display: flex;
+  padding-top: 150px;
+  align-items: center;
+  justify-content: space-around;
+}
 .lower-image {
   background-color: var(--darker-area);
   width: 30%;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .section5 {
@@ -174,6 +220,8 @@ body {
 
 .right-text {
   background-color: var(--light-area);
+  padding: 10px;
+  font-size: 20px;
 }
 
 .top-part .left-image {
@@ -189,7 +237,7 @@ body {
 .thumbnail {
   display: grid;
   grid-template-columns: 1fr 6fr;
-  height: 300px;
+  /* height: 300px; */
   margin-top: 50px;
 }
 
@@ -203,6 +251,13 @@ body {
   width: 60%;
   background-color: var(--normal-area);
   margin-top: 40px;
+}
+.section6 .left-text p {
+  padding: 10px 50px 10px 50px;
+}
+.section6 .left-text h1 {
+  padding:  10px 50px 10px 50px;
+  text-align: left;
 }
 
 .section6 .book-image {
@@ -228,10 +283,17 @@ body {
   background-color: var(--lighter-area);
   border-radius: 11px;
 }
+.top-divs .text {
+  padding: 20px;
+}
 
 .bottom-divs {
   background-color: var(--light-area);
   border-radius: 11px;
+}
+.bottom-divs .text {
+    padding: 20px;
+    line-height: 2;
 }
 
 footer {
@@ -241,8 +303,20 @@ footer {
 
 .footer-menu {
   background-color: var(--light-area);
-  height: 400px;
+  /* height: 200px; */
   width: 100%;
+  padding-top: 200px;
+
+}
+.footer-menu ul {
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+
+}
+.footer-menu  li {
+display: inline;
+  font-family: "Elena";
 }
 
 .legal {
@@ -258,7 +332,11 @@ footer {
 }
 
 .legal-text {
-  height: 300px;
   background-color: var(--normal-area);
   width: 60%;
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-text {
+  display: block;
 }
