@@ -27,7 +27,7 @@ Most attention taking parts of the website made darker on the heatmap.
 
 👤 **Oluwadare Juwon**
  
-- GitHub: [@wintan1484](https://github.com/wintan1418)
+- GitHub: [@wintan1418](https://github.com/wintan1418)
 - Twitter: [@oluwadarejuwon](https://twitter.com/oluwadarejuwon)
 - LinkedIn: [oluwadare juwon](https://linkedin.com/oluwadare-juwon-048a391a8/)
  
@@ -41,5 +41,4 @@ Most attention taking parts of the website made darker on the heatmap.
 You can freely contribute to this project.
 ## Show your support
 Give a ⭐️ if you like this project!
-## �� License
-This project is [MIT](lic.url) licensed.
+
