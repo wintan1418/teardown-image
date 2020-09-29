@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 body {
   --white-background: #fff;
   --light-background: #f2f2f2;
@@ -128,20 +130,21 @@ body {
   height: 400px;
   width: 60%;
 }
+
 .section4 {
-  background-color:var(--normal-background) ;
+  background-color: var(--normal-background);
   display: inline-flex;
   flex-flow: column;
   align-items: center;
   width: 100%;
-
 }
+
 .top-text {
   background-color: var(--light-area);
   height: 400px;
   width: 70%;
-  /* width:30%; */
 }
+
 .lower-image {
   background-color: var(--darker-area);
   width: 30%;
@@ -149,29 +152,113 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .section5 {
   background-color: var(--white-background);
   display: flex;
+  flex-flow: column;
   width: 100%;
-  height: 1200px;
-  align-items: flex-start;
-
 }
+
 .top-part {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 5fr;
   width: 100%;
   grid-gap: 10px;
+  margin: 20px 10px 20px 10px;
+}
 
-}
-.thumbnails {
-  display: grid;
-  grid-template-columns: repeat(2,1fr 200px)
-}
 .left-image {
-  background-color: var(--light-area);
-  height: 250px
+  background-color: var(--normal-area);
 }
+
 .right-text {
   background-color: var(--light-area);
+}
+
+.top-part .left-image {
+  height: 300px;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.thumbnail {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.section6 {
+  background-color: var(--dark-background);
+  display: flex;
+}
+
+.section6 .left-text {
+  height: 300px;
+  width: 60%;
+  background-color: var(--normal-area);
+  margin-top: 40px;
+}
+
+.section6 .book-image {
+  width: 40%;
+  height: 320px;
+  background-color: var(--dark-area);
+  margin-top: 20px;
+}
+
+.section7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  width: 80%;
+}
+
+.top-divs {
+  height: 400px;
+  background-color: var(--lighter-area);
+  border-radius: 11px;
+}
+
+.bottom-divs {
+  background-color: var(--light-area);
+  border-radius: 11px;
+}
+
+footer {
+  background-color: var(--dark-background);
+  margin-top: 20px;
+}
+
+.footer-menu {
+  background-color: var(--light-area);
+  height: 400px;
+  width: 100%;
+}
+
+.legal {
+  display: flex;
+  width: 100%;
+}
+
+.mini-image {
+  width: 20%;
+  background-color: var(--dark-area);
+  margin-top: 100px;
+  height: 200px;
+}
+
+.legal-text {
+  height: 300px;
+  background-color: var(--normal-area);
+  width: 60%;
 }
