@@ -30,7 +30,6 @@ body {
   height: 100px;
   display: flex;
   text-align: center;
-
 }
 
 .searchbox {
@@ -66,9 +65,8 @@ body {
   display: flex;
   align-items: center;
   margin: 40px;
-  font-family: 'Mija';
+  font-family: 'Mija', sans-serif;
   padding: 50px;
-
 }
 
 .article-title:first-child {
@@ -108,14 +106,10 @@ body {
   display: block;
   align-items: center;
   margin: 30px;
-
-
-
 }
 
 .image {
   background-color: var(--dark-area);
-
 }
 
 .section3 {
@@ -132,12 +126,12 @@ body {
 
 .section3-flex div {
   flex-grow: 1;
-  /* height: 300px; */
   display: flex;
   flex-direction: row;
   background-color: var(--lighter-area);
   margin: 10px;
 }
+
 .section3-flex .text {
   display: block;
   padding: 30px;
@@ -148,7 +142,6 @@ body {
   display: flex;
   justify-content: space-between;
   border-radius: 11px;
-
 }
 
 .section3-big .info {
@@ -156,7 +149,6 @@ body {
   width: 30%;
   border-radius: 11px;
   padding-top: 150px;
-
 }
 
 .section3 .image {
@@ -182,21 +174,21 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 90px;
-
 }
+
 .top-text p {
   display: flex;
   padding-top: 150px;
   align-items: center;
   justify-content: space-around;
 }
+
 .lower-image {
   background-color: var(--darker-area);
   width: 30%;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .section5 {
@@ -237,7 +229,6 @@ body {
 .thumbnail {
   display: grid;
   grid-template-columns: 1fr 6fr;
-  /* height: 300px; */
   margin-top: 50px;
 }
 
@@ -252,11 +243,13 @@ body {
   background-color: var(--normal-area);
   margin-top: 40px;
 }
+
 .section6 .left-text p {
   padding: 10px 50px 10px 50px;
 }
+
 .section6 .left-text h1 {
-  padding:  10px 50px 10px 50px;
+  padding: 10px 50px 10px 50px;
   text-align: left;
 }
 
@@ -283,6 +276,7 @@ body {
   background-color: var(--lighter-area);
   border-radius: 11px;
 }
+
 .top-divs .text {
   padding: 20px;
 }
@@ -291,9 +285,10 @@ body {
   background-color: var(--light-area);
   border-radius: 11px;
 }
+
 .bottom-divs .text {
-    padding: 20px;
-    line-height: 2;
+  padding: 20px;
+  line-height: 2;
 }
 
 footer {
@@ -303,20 +298,19 @@ footer {
 
 .footer-menu {
   background-color: var(--light-area);
-  /* height: 200px; */
   width: 100%;
   padding-top: 200px;
-
 }
+
 .footer-menu ul {
-    display: inline;
-    padding: 10px;
-    margin: 20px;
-
+  display: inline;
+  padding: 10px;
+  margin: 20px;
 }
-.footer-menu  li {
-display: inline;
-  font-family: "Elena";
+
+.footer-menu li {
+  display: inline;
+  font-family: "Elena", sans-serif;
 }
 
 .legal {
@@ -337,6 +331,7 @@ display: inline;
   text-align: center;
   padding-top: 100px;
 }
+
 .footer-text {
   display: block;
 }
