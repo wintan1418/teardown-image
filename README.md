@@ -4,7 +4,7 @@
 
 > this is a heatmap of the smashing magazine website.
 
-![screenshot](./assets/app_screenshot.png)
+![screenshot](./assets/screenshot(52).png)
 
 Most attention taking parts of the website made darker on the heatmap.
 
@@ -28,8 +28,9 @@ Most attention taking parts of the website made darker on the heatmap.
 👤 **Oluwadare Juwon**
  
 - GitHub: [@wintan1418](https://github.com/wintan1418)
-- Twitter: [@oluwadarejuwon](https://twitter.com/oluwadarejuwon)
-- LinkedIn: [oluwadare juwon](https://linkedin.com/oluwadare-juwon-048a391a8/)
+- Twitter: [@juwonoluwadare](https://twitter.com/oluwadarejuwon)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
+
  
 👤 **Sinan Sevgi**
 
