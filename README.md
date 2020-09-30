@@ -26,20 +26,19 @@ Most attention taking parts of the website made darker on the heatmap.
 ## Authors
 
 👤 **Oluwadare Juwon**
- 
+
 - GitHub: [@wintan1418](https://github.com/wintan1418)
 - Twitter: [@juwonoluwadare](https://twitter.com/oluwadarejuwon)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
+- LinkedIn: [Oluwadare Juwon](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
 
- 
+
 👤 **Sinan Sevgi**
 
 - GitHub: [@sinansevgi](https://github.com/sinansevgi)
 - LinkedIn: (https://www.linkedin.com/in/sinan-s-52559437/)
 - Twitter: [@nativeofcyber1](https://twitter.com/nativeofcyber1)
- 
+
 ## �� Contributing
 You can freely contribute to this project.
 ## Show your support
 Give a ⭐️ if you like this project!
-
