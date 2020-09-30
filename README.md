@@ -4,7 +4,7 @@
 
 > this is a heatmap of the smashing magazine website.
 
-![screenshot](./assets/screenshot(52).png)
+![screenshot](./assets/app_screenshot.png)
 
 Most attention taking parts of the website made darker on the heatmap.
 
