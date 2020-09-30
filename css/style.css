@@ -1,7 +1,5 @@
 @import "fonts.css";
 
-
-
 body {
   --white-background: #fff;
   --light-background: #f2f2f2;
@@ -13,7 +11,8 @@ body {
   --dark-area: #595959;
   --darker-area: #1a1a1a;
   --darkest-area: #000;
-  overflow-x:hidden;
+
+  overflow-x: hidden;
 }
 
 a {
@@ -62,28 +61,10 @@ a {
   margin: auto;
   padding: 5px 10px 5px 10px;
   border-radius: 11px;
-
 }
 
 .menu a {
   text-decoration: none;
-
-}
-
-.menu li:hover {
-  background-color: var(--dark-area);
-  font-family: 'Mija', sans-serif;
-  font-size: 2em;
-  color: #fff;
-  font-weight: 700;
-  margin: auto;
-  padding: 5px 10px 5px 10px;
-  border-radius: 11px;
-}
-
-
-.menu li:last-child {
-  background-color: var(--darker-area);
 }
 
 .section1 {
@@ -149,13 +130,11 @@ a {
 #tilted-image {
   background-color: rgba(0, 0, 0, 0.15);
   text-align: center;
-  /* transform: rotate(-11deg); */
 }
 
 #tilted-image:hover {
   background-color: var(--dark-area);
   text-align: center;
-  /* transform: rotate(0deg); */
 }
 
 #tilted-image img {
@@ -410,4 +389,19 @@ footer {
 
 .footer-text {
   display: block;
+}
+
+.menu li:hover {
+  background-color: var(--dark-area);
+  font-family: 'Mija', sans-serif;
+  font-size: 2em;
+  color: #fff;
+  font-weight: 700;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+  border-radius: 11px;
+}
+
+.menu li:last-child {
+  background-color: var(--darker-area);
 }
